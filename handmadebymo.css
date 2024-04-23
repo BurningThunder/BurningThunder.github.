@@ -1,0 +1,129 @@
+body{
+    background-color: lightcoral;
+    color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: block;
+    overflow: auto;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 190px;
+    padding-left: 30px;
+}
+
+header{
+    background-color: rgb(43, 139, 207);
+    color:rgb(222, 186, 132);
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: center;
+    line-height: 400%;
+    text-indent: 1em
+    
+}
+
+nav{
+    background-color: rgb(43, 139, 207);
+    background-image: linear-gradient(to bottom, rgb(43, 139, 207), white);
+    background-repeat: no-repeat;
+    font-weight: bold;
+    text-indent: 1em;
+    float: left;
+    padding-bottom: 50em;
+    padding-right: 1em;
+    padding-top: 1em;
+
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    transition: color 2s linear;
+}
+
+nav a:hover{
+    color: lightblue;
+}
+
+nav ul{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+h1{
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+table{
+    padding: 2em;
+    border-style: solid;
+    border-width: 6px;
+    border-color:rgb(43, 139, 207);
+    background-color: aliceblue;
+    color: black;
+}
+
+th{
+    padding: 2em;
+    border-width: 4px;
+    border-style: solid;
+    border-color:cadetblue;
+}
+
+td{
+    padding: 2em;
+    border-width: 4px;
+    border-style: solid;
+    border-color:cadetblue;
+}
+
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+
+input{
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea{
+    display: block;
+    height: 8em;
+    width: 16em;
+}
+
+input[type=submit]{
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+h2{
+    padding-left: 2%;
+}
+
+p{
+    padding-left: 2%;
+}
+
+footer{
+    text-align: center;
+}
+
+#image-between{
+    display: flex;
+    justify-content: space-between;
+}
+

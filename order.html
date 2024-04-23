@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Handmade by Mo :: Order</title>
+    <meta charset="utf-8">
+    <link href="handmadebymo.css" rel="stylesheet">
+</head>
+<body>
+    <header><h1>Order From Mo</h1></header>
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="order.html">Order</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Order a personalized card from Mo here!</h2>
+            <p>Required items are marked with an asterisk*</p>
+        <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+            <label for="firstname">*First Name</label>
+            <input type="text" name="firstname" id="firstname" required="required">
+
+            <label for="lastname">*Last Name</label>
+            <input type="text" name="lastname" id="lastname" required="required">
+
+            <label for="email">*E-mail Address</label>
+            <input type="email" name="email" id="email" required="required">
+
+            <label for="address1">*Address Line 1</label>
+            <input type="text" name="address1" id="address1" required="required">
+
+            <label for="address2">Address Line 2</label>
+            <input type="text" name="address2" id="address2">
+
+            Choose your cards:<br>
+            <label for="birthday">Birthday Card</label>
+            <input type="checkbox" name="birthday" id="birthday" value="Birthday Card">
+
+            <label for="valentines">Valentine's Card</label>
+            <input type="checkbox" name="valentines" id="valentines" value="Valentines Card">
+
+            <label for="friendship">Friendship Card</label>
+            <input type="checkbox" name="friendship" id="friendship" value="Friendship Card">
+
+            <label for="bulk">Bulk Order</label>
+            <input type="checkbox" name="bulk" id="bulk" value="Bulk Order">
+
+            <label for="bulkcards">Enter 5 cards if bulk buying</label>
+            <textarea name="bulkcards" id="bulkcards"></textarea>
+            
+            <input type="submit">
+        </form>
+        
+    </main>
+    <footer>
+        <small><i>
+            Copyright &copy; 2024 Handmade by Mo<br>
+            <a href="mailto:handmadebymo@gmail.com">
+                handmadebymo@gmail.com
+            </a>
+        </i></small>
+    </footer>
+
+</body>
+</html>
